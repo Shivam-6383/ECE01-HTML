@@ -64,7 +64,37 @@
     </table>
     <br><br>
     <!-- nested table -->
-   
+    <table border="3" cellspacing="0" cellpadding="4">
+        <tr>
+            <td>upper table 1</td>
+            <td>upper table 2</td>
+        </tr>
+        <tr>
+            <td>lower table 1</td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="2">
+                    <tbody>
+                        <tr>
+                            <td>inner table 11</td>
+                            <td>inner table 12</td>
+                        </tr>
+                        <tr>
+                            <td>inner table 21</td>
+                            <td>inner table 22</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    nested table 
+                </td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
